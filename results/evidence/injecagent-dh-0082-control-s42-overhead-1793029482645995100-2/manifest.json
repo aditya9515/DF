@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "injecagent-dh-0082-control-s42-overhead-1793029482645995100-2",
+    "event_count": 8,
+    "head_hash": "3c1fbec44a3fe07c17019542d1370f31f206ccb559973b0297feab41853c4b63",
+    "status": "completed",
+    "timestamp": "2026-10-26T15:46:53.492234+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "ruE52xindpdOKmEAHyBeOtV+JWUdghVFwE18F8lLCkg6pevuKQVTO1ssRpHqIgumGy/diPcDsBA9jBl0KQV8Bg=="
+}

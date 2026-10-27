@@ -1,0 +1,5 @@
+{
+  "sha256": "96296ad54adb231f4ceaf6bce2f3ad9486755c04c769c16b00a84e2120f48ff9",
+  "method": "Rules fixed before inference; no test-label tuning",
+  "version": 1
+}

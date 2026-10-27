@@ -1,0 +1,20 @@
+{
+  "model": "Qwen3-4B-Instruct-2507",
+  "quantization": "Q4_K_M",
+  "repository": "unsloth/Qwen3-4B-Instruct-2507-GGUF",
+  "revision": "a06e946bb6b655725eafa393f4a9745d460374c9",
+  "sha256": "3605803b982cb64aead44f6c1b2ae36e3acdb41d8e46c8a94c6533bc4c67e597",
+  "runtime": "llama.cpp b11900",
+  "context_tokens": 4096,
+  "gpu_layers": 24,
+  "parallel_sessions": 1,
+  "endpoint": "http://127.0.0.1:8081/v1",
+  "hardware": {
+    "python": "3.12.15 (main, Oct 21 2026, 17:48:33) [MSC v.1944 64 bit (AMD64)]",
+    "root": "D:\\sem7\\Data Forensics\\project",
+    "model_present": true,
+    "runtime_present": true,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU, 4096 MiB, 621.01",
+    "server_ready": false
+  }
+}

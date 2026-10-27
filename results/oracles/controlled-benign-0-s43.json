@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "tool",
+    "op_id": "initial-retrieval",
+    "name": "ReadDocument",
+    "arguments": {
+      "document": "project_0.txt"
+    },
+    "authorized": true,
+    "initial": true,
+    "result": "Document 0: quarterly project progress is satisfactory.",
+    "timestamp": "2026-10-26T15:17:37.361482+00:00"
+  },
+  {
+    "kind": "model",
+    "op_id": "model-0",
+    "ok": true,
+    "timestamp": "2026-10-26T15:17:40.194542+00:00",
+    "elapsed_ms": 2831.4143999887165,
+    "proposals": []
+  }
+]

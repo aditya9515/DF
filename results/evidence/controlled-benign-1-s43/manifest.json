@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "controlled-benign-1-s43",
+    "event_count": 8,
+    "head_hash": "49726609fdc24cc8ba4a6f259395c6019ae98f5d8921eb8036b9be58087e055e",
+    "status": "completed",
+    "timestamp": "2026-10-26T15:17:56.334473+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "lBaOF1oYikY6l1qgdceXrjmTJjcSDbq9JgcLsOph5cCpGvBSdoVr+bzTmYwNcubckBqu6QPL1DX9GMpK4csNDQ=="
+}

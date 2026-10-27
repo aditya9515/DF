@@ -1,0 +1,12 @@
+{
+  "project_report_docx": true,
+  "project_report_pdf": true,
+  "dataset_source_and_citation": true,
+  "runnable_code_and_lock": true,
+  "saved_results_and_figures": true,
+  "readme": true,
+  "report_matches_reviewed_results": true,
+  "full_planned_experiment": true,
+  "institution_similarity_report": false,
+  "similarity_note": "Pending user-provided institution-approved report for the exact final document; not generated or fabricated."
+}

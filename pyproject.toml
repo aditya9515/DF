@@ -1,0 +1,28 @@
+[project]
+name = "agent-forensics"
+version = "1.0.0"
+description = "Verifiable evidence capture and incident reconstruction for local LLM agents"
+requires-python = ">=3.12,<3.13"
+dependencies = ["cryptography>=44", "rfc8785>=0.1.4", "langgraph>=1.0", "httpx>=0.28", "typer>=0.15", "streamlit>=1.44", "pandas>=2.2", "matplotlib>=3.9", "scikit-learn>=1.6", "numpy>=2.0"]
+
+[project.scripts]
+agent-forensics = "agent_forensics.cli:app"
+
+[project.optional-dependencies]
+report = ["python-docx>=1.2", "pypdf>=6"]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.11"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agent_forensics"]

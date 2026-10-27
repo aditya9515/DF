@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "controlled-direct_injection-4-s43",
+    "event_count": 12,
+    "head_hash": "2ad478656d4326a5fdb49ee064eb6761c49c420686332de219c6ddef93b1d34d",
+    "status": "completed",
+    "timestamp": "2026-10-26T16:26:46.816041+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "pXk2Hq9VxGU75audZqIfL/fNODBLYfr/i4AI9vS5W6sdTqz+NmmOLClgUI1ltEYRpCDgbbiry5mArffydqeQDA=="
+}

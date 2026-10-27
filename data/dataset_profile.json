@@ -1,0 +1,58 @@
+{
+  "original_missing_or_empty": {
+    "Attack Type": 0,
+    "Attacker Instruction": 0,
+    "Attacker Tools": 0,
+    "Expected Achievements": 0,
+    "Modifed": 0,
+    "Thought": 0,
+    "Tool Parameters": 0,
+    "Tool Response": 0,
+    "Tool Response Template": 0,
+    "User Instruction": 0,
+    "User Tool": 0
+  },
+  "attack_subtypes": {
+    "Physical Harm": 170,
+    "Financial Harm": 153,
+    "Data Security Harm": 187,
+    "Physical Data": 187,
+    "Financial Data": 102,
+    "Others": 255
+  },
+  "feature_types": {
+    "Attack Type": [
+      "str"
+    ],
+    "Attacker Instruction": [
+      "str"
+    ],
+    "Attacker Tools": [
+      "list"
+    ],
+    "Expected Achievements": [
+      "str"
+    ],
+    "Modifed": [
+      "int"
+    ],
+    "Thought": [
+      "str"
+    ],
+    "Tool Parameters": [
+      "str"
+    ],
+    "Tool Response": [
+      "str"
+    ],
+    "Tool Response Template": [
+      "str"
+    ],
+    "User Instruction": [
+      "str"
+    ],
+    "User Tool": [
+      "str"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "original_cases": 1054,
+  "original_class_counts": {
+    "direct_harm": 510,
+    "data_stealing": 544
+  },
+  "user_tool_families": 17,
+  "development_families": [
+    "GmailReadEmail",
+    "GmailSearchEmails",
+    "GoogleCalendarGetEventsFromSharedCalendar",
+    "TeladocViewReviews",
+    "TwitterManagerReadTweet",
+    "TwitterManagerSearchTweets"
+  ],
+  "test_families": [
+    "AmazonGetProductDetails",
+    "EvernoteManagerSearchNotes",
+    "GitHubGetRepositoryDetails",
+    "GitHubGetUserDetails",
+    "GitHubSearchRepositories",
+    "GoogleCalendarReadEvents",
+    "ShopifyGetProductDetails",
+    "TodoistSearchTasks",
+    "TwilioGetReceivedSmsMessages",
+    "TwitterManagerGetUserProfile",
+    "WebBrowserNavigateTo"
+  ],
+  "selected_public_attacks": 60,
+  "generated_public_controls": 60,
+  "controlled_scenarios": 24,
+  "case_count": 144,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "planned_sessions": 432,
+  "missing_required_fields": 0,
+  "case_manifest_sha256": "74672547f8e3aad0dd9aa39b429d24aea8e8fef6e4d6364365e955448043c172",
+  "control_method": "Published templates with documented project-authored replacements; not original benchmark negatives."
+}

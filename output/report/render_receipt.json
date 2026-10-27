@@ -1,0 +1,36 @@
+{
+  "visual_review_passed": true,
+  "docx_sha256": "301757cd4e5f55decf92fca6d3a79cd25dceb2863ffd86dd75248015127404ad",
+  "pdf_sha256": "8af1de928726c0e9b18448f3acd72acff9a175f8e983dabe31271257e4f1f218",
+  "page_count": 21,
+  "renderer": "Task-owned LibreOffice 26.8.1 via bundled render_docx.py and Poppler",
+  "review_date": "2026-10-27",
+  "pagination_entries_verified": 27,
+  "template_opaque_parts_preserved": true,
+  "directly_reviewed_final_pages": [
+    2,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19
+  ],
+  "identical_to_previously_reviewed_pages": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    18,
+    20,
+    21
+  ]
+}

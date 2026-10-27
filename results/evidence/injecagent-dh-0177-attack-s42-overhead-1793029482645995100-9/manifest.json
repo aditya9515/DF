@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "injecagent-dh-0177-attack-s42-overhead-1793029482645995100-9",
+    "event_count": 8,
+    "head_hash": "6056bde2e13490b4c168f9781298f144a951724fe91c8ae5c6d77954df3199cb",
+    "status": "completed",
+    "timestamp": "2026-10-26T15:49:41.134356+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "IIIaWYJyBAHmsGTl2OFkpmrTeqViP1418g8v7UXYCGCnzY1pwCHv3b/KuiLLTZC9SzF3HvFKViK2gQTBhkOSCg=="
+}

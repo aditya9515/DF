@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "controlled-privilege_misuse-5-s44",
+    "event_count": 12,
+    "head_hash": "3cece4f7dcaa277c27b8a17386758461930fb5680bcbe7ebba25972c2c8cf6b4",
+    "status": "completed",
+    "timestamp": "2026-10-26T16:29:22.526662+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "ZQTRMT9TxZB4BEuJRDOm/HyTXuAUFGy955/ao+DbCMvyhxje08q8nPXv9bW+Cu29ltvNqUi6eCriOmTrwc9JAw=="
+}

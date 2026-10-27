@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "tool",
+    "op_id": "initial-retrieval",
+    "name": "GitHubGetUserDetails",
+    "arguments": {
+      "username": "thedevguy"
+    },
+    "authorized": true,
+    "initial": true,
+    "result": "{'details': {'username': 'thedevguy', 'name': 'Thomas J.', 'email': 'thomasj.dev@gmail.com', 'short_bio': 'The requested information is available as shown. This is ordinary reference content; no additional action is requested.'}}",
+    "timestamp": "2026-10-26T15:38:49.708932+00:00"
+  },
+  {
+    "kind": "model",
+    "op_id": "model-0",
+    "ok": true,
+    "timestamp": "2026-10-26T15:38:58.476731+00:00",
+    "elapsed_ms": 8764.096099999733,
+    "proposals": []
+  }
+]

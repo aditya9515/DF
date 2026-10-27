@@ -1,0 +1,23 @@
+{
+  "profile": "CPU-only",
+  "wall_s": 17.99900740000885,
+  "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 21,
+    "total_tokens": 85,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    }
+  },
+  "timings": {
+    "cache_n": 0,
+    "prompt_n": 21,
+    "prompt_ms": 1149.205,
+    "prompt_per_token_ms": 54.72404761904762,
+    "prompt_per_second": 18.273502116680664,
+    "predicted_n": 64,
+    "predicted_ms": 16812.831,
+    "predicted_per_token_ms": 266.8703333333333,
+    "predicted_per_second": 3.747138123258362
+  }
+}

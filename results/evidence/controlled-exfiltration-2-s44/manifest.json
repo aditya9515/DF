@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "controlled-exfiltration-2-s44",
+    "event_count": 17,
+    "head_hash": "c650ec92248ff59b1d7e8556a26be48648811cb818141025e1011b44f993565d",
+    "status": "failed",
+    "timestamp": "2026-10-26T16:27:27.174390+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "fjyxBe84Qe/TiHsgxsqiZXfbbKX18IIxrWbDlMvM+rs9MTEv4WKn/vLJzsbWpFkA/1iRyZh3zflXWfYjLCCeCg=="
+}

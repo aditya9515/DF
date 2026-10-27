@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "injecagent-ds-0495-attack-s44",
+    "event_count": 8,
+    "head_hash": "8e454834dc9aeff38a18c6c577898c71e7924e7953275ebc92612976c76ff2b7",
+    "status": "completed",
+    "timestamp": "2026-10-26T16:17:05.881633+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "qI0n8ZtlHNZv5/p0O6I0n6cX2xR0Qo8Ku39dm9lq/BiN/w2pigNXloeGmqSNg1GrT7H0ySqA/vg090zTfydNCg=="
+}

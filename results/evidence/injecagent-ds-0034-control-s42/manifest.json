@@ -1,0 +1,12 @@
+{
+  "payload": {
+    "schema_version": 1,
+    "session_id": "injecagent-ds-0034-control-s42",
+    "event_count": 8,
+    "head_hash": "90c51d0fc03f3f442f231e421363ada0f0aa599213861ec3b66950eae5f2a1b1",
+    "status": "completed",
+    "timestamp": "2026-10-26T16:05:18.534480+00:00",
+    "public_key_sha256": "04c211ffb2f98e5149a23cedcd69d218fcb535ef33ca0e97c38b3e2ad76949a9"
+  },
+  "signature": "xvpRZgqsTUwLVfTWKib04ebO4uAqKR7Ze17BesDaDFjHPsE9nyB0JdhFuBzEM8Ege5za/NuBq7yNUXlc7RprBw=="
+}

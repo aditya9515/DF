@@ -1,0 +1,47 @@
+{
+  "verified_on": "2026-10-27",
+  "tests": {
+    "passed": 32,
+    "command": "python -m pytest -q",
+    "ruff": "src tests scripts --select E9,F: passed"
+  },
+  "fresh_environment_reproduction": {
+    "passed": true,
+    "environment": "New Python 3.12 virtual environment from extracted submission ZIP using uv sync --frozen",
+    "inference_used": false,
+    "private_keys_present": false,
+    "commands": [
+      "uv sync --frozen",
+      "uv run agent-forensics evaluate",
+      "uv run agent-forensics figures",
+      "uv run python scripts/validate_submission.py"
+    ],
+    "sessions": 432,
+    "matching_table_hashes": {
+      "prediction_sha256": "9d791b66f1620406dbef02039ecb097a8bf969143bb232df174b491a6cb056fd",
+      "metrics_sha256": "d571469da6f09f55e6b957b6d0282e22287b30e424dc826012391ba9596f26a2",
+      "completeness_sha256": "d4d390fff43cdffbcd7c898969babd28e3ff6e773f1a5339d964f469a14e0c55"
+    },
+    "matching_pngs": {
+      "completeness.png": true,
+      "confusion_matrices.png": true,
+      "dataset.png": true,
+      "detector_comparison.png": true,
+      "integrity.png": true,
+      "overhead.png": true,
+      "workflow.png": true
+    }
+  },
+  "evidence": {
+    "intact_bundles_verified": 432,
+    "corrupted_variants_rejected": 9,
+    "illustrative_zip_export_verified": true,
+    "signed_custody_chain_verified": true
+  },
+  "report": {
+    "pages": 21,
+    "contents_entries_verified": 27,
+    "visual_review": "Passed; see output/report/render_receipt.json"
+  },
+  "pending_external_requirement": "Genuine institution-approved similarity report for exact final document"
+}

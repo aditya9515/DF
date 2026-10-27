@@ -1,0 +1,122 @@
+[
+  {
+    "mutation": "intact_control",
+    "expected_valid": true,
+    "detected": false,
+    "valid": true,
+    "complete": true,
+    "first_failure": null,
+    "errors": [],
+    "event_count": 8,
+    "status": "completed",
+    "session_id": "injecagent-dh-0082-attack-s42"
+  },
+  {
+    "mutation": "payload_edit",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": 3,
+    "errors": [
+      "ValueError: Event hash mismatch"
+    ],
+    "event_count": 8
+  },
+  {
+    "mutation": "middle_deletion",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": 3,
+    "errors": [
+      "ValueError: Sequence or event ID mismatch"
+    ],
+    "event_count": 7
+  },
+  {
+    "mutation": "tail_deletion",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": null,
+    "errors": [
+      "ValueError: Session boundary missing"
+    ],
+    "event_count": 7
+  },
+  {
+    "mutation": "insertion",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": 3,
+    "errors": [
+      "ValueError: Sequence or event ID mismatch"
+    ],
+    "event_count": 9
+  },
+  {
+    "mutation": "reordering",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": 2,
+    "errors": [
+      "ValueError: Sequence or event ID mismatch"
+    ],
+    "event_count": 8
+  },
+  {
+    "mutation": "rewritten_chain",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": null,
+    "errors": [
+      "ValueError: Signed manifest count or head mismatch"
+    ],
+    "event_count": 8
+  },
+  {
+    "mutation": "signature_change",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": null,
+    "errors": [
+      "InvalidSignature: "
+    ],
+    "event_count": 0
+  },
+  {
+    "mutation": "wrong_key",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": null,
+    "errors": [
+      "ValueError: Embedded key differs from trusted key"
+    ],
+    "event_count": 0
+  },
+  {
+    "mutation": "checkpoint_removal",
+    "expected_valid": false,
+    "detected": true,
+    "valid": false,
+    "complete": false,
+    "first_failure": null,
+    "errors": [
+      "ValueError: Missing, repeated or reordered checkpoints"
+    ],
+    "event_count": 8
+  }
+]

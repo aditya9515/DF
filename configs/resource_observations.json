@@ -1,0 +1,6 @@
+{
+  "reason": "Sustained GPU thermal throttling during full offloading",
+  "observed_full_offload": {"gpu_layers":99,"memory_used_mib":3590,"temperature_c":89.22,"graphics_clock_mhz":210,"observed_generation_tokens_per_second":9.2},
+  "action": "Preserve completed sessions, archive unfinished attempt on resume, cool the idle GPU, and resume with 24 GPU layers using the same pinned model and sampling parameters.",
+  "interpretation": "Session-level server configurations are preserved in signed start events. Dedicated paired overhead experiments use one consistent profile. Profiles are not compared as a treatment effect."
+}

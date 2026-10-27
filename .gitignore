@@ -1,0 +1,15 @@
+.venv/
+.private/
+.tools/
+.models/
+tmp/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+output/submission/*.zip
+!output/submission/AI_Agent_Forensics_Submission.zip
+*.sqlite-wal
+*.sqlite-shm
+.env
+.env.*
